@@ -17,7 +17,7 @@ dependencyResolutionManagement {
     repositories {  
         google()  
         mavenCentral()  
-        maven { url \= uri("\[https://jitpack.io\](https://jitpack.io)") }  
+        maven { url = uri("https://jitpack.io") }  
     }  
 }
 ```
@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 Add it in your app module's build.gradle.kts:
 ```
 dependencies {  
-    implementation("com.github.YourUsername:QiblaCompassSDK:1.0.0")  
+    implementation("com.github.ArshadMujtaba:QiblaCompassSDK:1.0.0")  
 }
 ```
 
